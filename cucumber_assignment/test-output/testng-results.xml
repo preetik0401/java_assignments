@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Launch the ZoomCar Instance (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">load the URL (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on start your wonderful journey (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on the popular pickup point as Porur (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on NEXT (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">NEXT should success (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user select start date as tomorrow (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on next button (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">next button should success (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user click on the last day (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on DONE (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">DONE should success (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user find no of cars available (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">find the highest car price and car name (FAILED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-05T06:52:02Z" name="Default suite" finished-at="2020-08-05T06:52:21Z" duration-ms="19058">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@50caa560]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-08-05T06:52:02Z" name="Default test" finished-at="2020-08-05T06:52:21Z" duration-ms="19058">
+      <class name="runner.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.CucumberRunner@50caa560]" started-at="2020-08-05T06:52:02Z" name="setUpClass" finished-at="2020-08-05T06:52:02Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CucumberRunner@50caa560]" started-at="2020-08-05T06:52:02Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-05T06:52:21Z" duration-ms="18894" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Start Journey"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Zoom Car"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "OFFER APPLIED
+- YOU SAVE 
+1739
+
+17399
+
+15660"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "OFFER APPLIED
+- YOU SAVE 
+1739
+
+17399
+
+15660"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.base/java.lang.Integer.parseInt(Integer.java:652)
+at java.base/java.lang.Integer.parseInt(Integer.java:770)
+at stepdefinition.Login.selectSubCategory(Login.java:116)
+at ✽.find the highest car price and car name(src/test/resources/feature/Login.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Launch the ZoomCar Instance (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">load the URL (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on start your wonderful journey (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on the popular pickup point as Porur (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on NEXT (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">NEXT should success (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user select start date as tomorrow (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on next button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">next button should success (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user click on the last day (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on DONE (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">DONE should success (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user find no of cars available (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">find the highest car price and car name (FAILED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@50caa560]" started-at="2020-08-05T06:52:21Z" name="tearDownClass" finished-at="2020-08-05T06:52:21Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

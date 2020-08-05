@@ -1,0 +1,30 @@
+Feature: Zoom Car
+
+  Scenario: Start Journey                               # src/test/resources/feature/Login.feature:5
+    Given Launch the ZoomCar Instance                   # Login.openBrowser()
+    And load the URL                                    # Login.loadTheURL()
+    When user click on start your wonderful journey     # Login.userStartJourney()
+    And user click on the popular pickup point as Porur # Login.userSelectPickUpPoint()
+    And user click on NEXT                              # Login.userClickOnNext()
+    Then NEXT should success                            # Login.nextShouldSuccess()
+    When user select start date as tomorrow             # Login.selStartDate()
+    And user click on next button                       # Login.clickOnNext()
+    Then next button should success                     # Login.nextSuccess()
+    And user click on the last day                      # Login.clickOnLastDay()
+    And click on DONE                                   # Login.clickOnDone()
+    Then DONE should success                            # Login.doneSuccess()
+    And user find no of cars available                  # Login.findNoOfCars()
+    And find the highest car price and car name         # Login.selectSubCategory()
+      java.lang.NumberFormatException: For input string: "OFFER APPLIED
+- YOU SAVE 
+1739
+
+17399
+
+15660"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at stepdefinition.Login.selectSubCategory(Login.java:116)
+	at ✽.find the highest car price and car name(src/test/resources/feature/Login.feature:19)
+

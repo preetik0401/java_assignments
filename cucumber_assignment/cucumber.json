@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 172481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenairo(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Start Journey",
+        "description": "",
+        "id": "zoom-car;start-journey",
+        "after": [
+          {
+            "result": {
+              "duration": 121341,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterScenairo(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1145579001,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the ZoomCar Instance",
+            "match": {
+              "location": "Login.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6403039221,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "load the URL",
+            "match": {
+              "location": "Login.loadTheURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7548016245,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on start your wonderful journey",
+            "match": {
+              "location": "Login.userStartJourney()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61885134,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on the popular pickup point as Porur",
+            "match": {
+              "location": "Login.userSelectPickUpPoint()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50152992,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on NEXT",
+            "match": {
+              "location": "Login.userClickOnNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200072,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "NEXT should success",
+            "match": {
+              "location": "Login.nextShouldSuccess()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52611502,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user select start date as tomorrow",
+            "match": {
+              "location": "Login.selStartDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40745557,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on next button",
+            "match": {
+              "location": "Login.clickOnNext()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160269,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "next button should success",
+            "match": {
+              "location": "Login.nextSuccess()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39282487,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on the last day",
+            "match": {
+              "location": "Login.clickOnLastDay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3472998725,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on DONE",
+            "match": {
+              "location": "Login.clickOnDone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197161,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "DONE should success",
+            "match": {
+              "location": "Login.doneSuccess()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11188296,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user find no of cars available",
+            "match": {
+              "location": "Login.findNoOfCars()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: For input string: \"OFFER APPLIED\n- YOU SAVE \n1739\n\n17399\n\n15660\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:652)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:770)\n\tat stepdefinition.Login.selectSubCategory(Login.java:116)\n\tat ✽.find the highest car price and car name(src/test/resources/feature/Login.feature:19)\n",
+              "duration": 38326410,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "find the highest car price and car name",
+            "match": {
+              "location": "Login.selectSubCategory()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Zoom Car",
+    "description": "",
+    "id": "zoom-car",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/Login.feature",
+    "tags": []
+  }
+]

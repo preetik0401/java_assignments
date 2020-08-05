@@ -1,0 +1,236 @@
+[
+  {
+    "source": "user click on the popular pickup point as Porur",
+    "steps": [
+      {
+        "name": "user click on the popular pickup point as Porur",
+        "aggregatedDurations": {
+          "average": 0.061885134,
+          "median": 0.061885134
+        },
+        "durations": [
+          {
+            "duration": 0.061885134,
+            "location": "src/test/resources/feature/Login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on the last day",
+    "steps": [
+      {
+        "name": "user click on the last day",
+        "aggregatedDurations": {
+          "average": 0.039282487,
+          "median": 0.039282487
+        },
+        "durations": [
+          {
+            "duration": 0.039282487,
+            "location": "src/test/resources/feature/Login.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "NEXT should success",
+    "steps": [
+      {
+        "name": "NEXT should success",
+        "aggregatedDurations": {
+          "average": 0.000200072,
+          "median": 0.000200072
+        },
+        "durations": [
+          {
+            "duration": 0.000200072,
+            "location": "src/test/resources/feature/Login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user find no of cars available",
+    "steps": [
+      {
+        "name": "user find no of cars available",
+        "aggregatedDurations": {
+          "average": 0.011188296,
+          "median": 0.011188296
+        },
+        "durations": [
+          {
+            "duration": 0.011188296,
+            "location": "src/test/resources/feature/Login.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Launch the ZoomCar Instance",
+    "steps": [
+      {
+        "name": "Launch the ZoomCar Instance",
+        "aggregatedDurations": {
+          "average": 1.145579001,
+          "median": 1.145579001
+        },
+        "durations": [
+          {
+            "duration": 1.145579001,
+            "location": "src/test/resources/feature/Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user select start date as tomorrow",
+    "steps": [
+      {
+        "name": "user select start date as tomorrow",
+        "aggregatedDurations": {
+          "average": 0.052611502,
+          "median": 0.052611502
+        },
+        "durations": [
+          {
+            "duration": 0.052611502,
+            "location": "src/test/resources/feature/Login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on NEXT",
+    "steps": [
+      {
+        "name": "user click on NEXT",
+        "aggregatedDurations": {
+          "average": 0.050152992,
+          "median": 0.050152992
+        },
+        "durations": [
+          {
+            "duration": 0.050152992,
+            "location": "src/test/resources/feature/Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "DONE should success",
+    "steps": [
+      {
+        "name": "DONE should success",
+        "aggregatedDurations": {
+          "average": 0.000197161,
+          "median": 0.000197161
+        },
+        "durations": [
+          {
+            "duration": 0.000197161,
+            "location": "src/test/resources/feature/Login.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "click on DONE",
+    "steps": [
+      {
+        "name": "click on DONE",
+        "aggregatedDurations": {
+          "average": 3.472998725,
+          "median": 3.472998725
+        },
+        "durations": [
+          {
+            "duration": 3.472998725,
+            "location": "src/test/resources/feature/Login.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on start your wonderful journey",
+    "steps": [
+      {
+        "name": "user click on start your wonderful journey",
+        "aggregatedDurations": {
+          "average": 7.548016245,
+          "median": 7.548016245
+        },
+        "durations": [
+          {
+            "duration": 7.548016245,
+            "location": "src/test/resources/feature/Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "load the URL",
+    "steps": [
+      {
+        "name": "load the URL",
+        "aggregatedDurations": {
+          "average": 6.403039221,
+          "median": 6.403039221
+        },
+        "durations": [
+          {
+            "duration": 6.403039221,
+            "location": "src/test/resources/feature/Login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "next button should success",
+    "steps": [
+      {
+        "name": "next button should success",
+        "aggregatedDurations": {
+          "average": 0.000160269,
+          "median": 0.000160269
+        },
+        "durations": [
+          {
+            "duration": 0.000160269,
+            "location": "src/test/resources/feature/Login.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on next button",
+    "steps": [
+      {
+        "name": "user click on next button",
+        "aggregatedDurations": {
+          "average": 0.040745557,
+          "median": 0.040745557
+        },
+        "durations": [
+          {
+            "duration": 0.040745557,
+            "location": "src/test/resources/feature/Login.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 04 23:52:02 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19058 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Start Journey", "Zoom Car"<br/>
+<a href="#Output-214055354" onClick='toggleBox("Output-214055354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-214055354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-214055354">
+<div "result">Launch the ZoomCar Instance (PASSED : 1s)</div><br/>
+<div "result">load the URL (PASSED : 6s)</div><br/>
+<div "result">user click on start your wonderful journey (PASSED : 7s)</div><br/>
+<div "result">user click on the popular pickup point as Porur (PASSED : 0s)</div><br/>
+<div "result">user click on NEXT (PASSED : 0s)</div><br/>
+<div "result">NEXT should success (PASSED : 0s)</div><br/>
+<div "result">user select start date as tomorrow (PASSED : 0s)</div><br/>
+<div "result">user click on next button (PASSED : 0s)</div><br/>
+<div "result">next button should success (PASSED : 0s)</div><br/>
+<div "result">user click on the last day (PASSED : 0s)</div><br/>
+<div "result">click on DONE (PASSED : 3s)</div><br/>
+<div "result">DONE should success (PASSED : 0s)</div><br/>
+<div "result">user find no of cars available (PASSED : 0s)</div><br/>
+<div "result">find the highest car price and car name (FAILED : 0s)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;OFFER APPLIED
+- YOU SAVE 
+1739
+
+17399
+
+15660&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at stepdefinition.Login.selectSubCategory(Login.java:116)
+	at ✽.find the highest car price and car name(src/test/resources/feature/Login.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace214055354", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace214055354'><pre>java.lang.NumberFormatException: For input string: &quot;OFFER APPLIED
+- YOU SAVE 
+1739
+
+17399
+
+15660&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at stepdefinition.Login.selectSubCategory(Login.java:116)
+	at ✽.find the highest car price and car name(src/test/resources/feature/Login.feature:19)
+</pre></div></td>
+<td>18</td>
+<td>runner.CucumberRunner@50caa560</td></tr>
+</table><p>
+</body>
+</html>
